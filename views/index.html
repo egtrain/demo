@@ -1,0 +1,16 @@
+<html> 
+<head> 
+	<title> Index Page </title>
+</head>
+<body>
+<h1> Blog ! </h1>
+
+{{#each entries}}
+    <p>
+        <a href="/article/{{id}}">{{title}}</a><br/>
+        Published: {{published}}
+    </p>
+{{/each}}
+
+</body>
+</html>
