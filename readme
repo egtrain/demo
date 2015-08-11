@@ -1,2 +1,7 @@
 This project was created using the following link:
 http://code.tutsplus.com/tutorials/introduction-to-express--net-33367
+
+To execute:
+1. node app.js
+2. browser:  http://127.0.0.1:3000/
+
